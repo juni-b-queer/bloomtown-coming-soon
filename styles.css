@@ -34,6 +34,14 @@ body {
     color: #f54a6b
 }
 
+.footer {
+    /** center footer text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
 /* utility: hidden element that should not display on the front end */
 .hidden {
     display: none !important;
