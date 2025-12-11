@@ -50,6 +50,6 @@ body {
 
 @media only screen and (max-width: 600px) {
   .title{
-      font-size: clamp(1.5rem, 5vw, 4rem) !important;
+      font-size: clamp(1rem, 5vw, 4rem) !important;
   };
 }
