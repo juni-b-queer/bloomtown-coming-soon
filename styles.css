@@ -60,6 +60,11 @@ body {
     margin-top: 0.5rem;
 }
 
+.footer-link{
+    color: #39c7ff;
+    font-size: 0.8rem;
+}
+
 .hidden {
     display: none !important;
 }
