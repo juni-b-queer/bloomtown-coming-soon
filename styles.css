@@ -13,10 +13,27 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.page-container{
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 .container {
     text-align: center; /* center text */
     padding: 2rem;
+}
+
+.logo-container{
+    margin-top: 2rem;
+    align-self: center;
+
+}
+
+.logo{
+    height: 25vw;
+
 }
 
 .title {
@@ -24,7 +41,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
     margin: 0 0 0.5rem 0;
-    color: #00b5fa
+    color: #39c7ff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0.2rem 0.25rem 0.2rem #804922 ;
 }
 
 .subtitle {
@@ -49,7 +68,7 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-  .title{
-      font-size: clamp(1rem, 5vw, 4rem) !important;
-  };
+    .logo{
+        height: 50vw !important;
+    }
 }
