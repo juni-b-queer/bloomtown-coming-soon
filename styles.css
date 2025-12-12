@@ -60,9 +60,28 @@ body {
     margin-top: 0.5rem;
 }
 
+.footer-links-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.links{
+    position: fixed;
+    bottom: 1rem;
+}
+
 .footer-link{
     color: #39c7ff;
     font-size: 0.8rem;
+    text-decoration: none;
+
+}
+.footer-link:hover{
+    transition: all 0.1s ease-in-out;
+    text-decoration: underline !important;
+    color: #f54a6b !important;
+    text-decoration-color: #39c7ff !important;
 }
 
 .hidden {
