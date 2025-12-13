@@ -33,7 +33,6 @@ body {
 
 .logo{
     height: 25vw;
-
 }
 
 .title {
@@ -48,6 +47,7 @@ body {
 
 .subtitle {
     font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: bold;
     opacity: 0.9;
     margin: 0;
     color: #f54a6b
@@ -69,19 +69,27 @@ body {
 .links{
     position: fixed;
     bottom: 1rem;
+    justify-content: space-between;
 }
 
 .footer-link{
     color: #39c7ff;
     font-size: 0.8rem;
     text-decoration: none;
-
+    margin: 0.5rem;
 }
-.footer-link:hover{
+.footer-link:hover, .email-link:hover, .inline-link:hover{
     transition: all 0.1s ease-in-out;
     text-decoration: underline !important;
     color: #f54a6b !important;
     text-decoration-color: #39c7ff !important;
+}
+
+
+.email-link{
+    color: #39c7ff;
+    text-decoration: none;
+    margin: 0.5rem;
 }
 
 .hidden {
